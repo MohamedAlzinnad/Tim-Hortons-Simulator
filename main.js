@@ -14,7 +14,7 @@ document.getElementById('untilGrandPrize_BritishColumbia').addEventListener('cli
 document.getElementById('until500Donuts_BritishColumbia').addEventListener('click', until500Donuts_BritishColumbia);
 
 // Event Functions
-function randomItem() {
+function randomItem_BritishColumbia() {
   // Generate random number
   let randNum = Math.random();
 
@@ -44,20 +44,20 @@ function randomItem() {
 
 function simulateOnce_BritishColumbia() {
   for (let n = 0; n < 1; n++) {
-    randomItem();
+    randomItem_BritishColumbia();
   }
 }
 
 function simulate5Times_BritishColumbia() {
   for (let n = 0; n < 5; n++) {
-    randomItem();
+    randomItem_BritishColumbia();
   }
 }
 
 function untilGrandPrize_BritishColumbia() {
   let count = 0;
   while (numGrandPrize_BritishColumbia < 1) {
-    randomItem();
+    randomItem_BritishColumbia();
     count++;
   }
   console.log('count' + count);
@@ -66,7 +66,7 @@ function untilGrandPrize_BritishColumbia() {
 function until500Donuts_BritishColumbia() {
   let count = 0;
   while (numFreeDonut_BritishColumbia < 500) {
-    randomItem();
+    randomItem_BritishColumbia();
     count++;
   }
   console.log('count' + count);
@@ -88,7 +88,7 @@ document.getElementById('untilGrandPrize_Alberta').addEventListener('click', unt
 document.getElementById('until500Donuts_Alberta').addEventListener('click', until500Donuts_Alberta);
 
 // Event Functions
-function randomItem() {
+function randomItem_Alberta() {
   // Generate random number
   let randNum = Math.random();
 
@@ -118,20 +118,20 @@ function randomItem() {
 
 function simulateOnce_Alberta() {
   for (let n = 0; n < 1; n++) {
-    randomItem();
+    randomItem_Alberta();
   }
 }
 
 function simulate5Times_Alberta() {
   for (let n = 0; n < 5; n++) {
-    randomItem();
+    randomItem_Alberta();
   }
 }
 
 function untilGrandPrize_Alberta() {
   let count = 0;
   while (numGrandPrize_Alberta < 1) {
-    randomItem();
+    randomItem_Alberta();
     count++;
   }
   console.log('count' + count);
@@ -140,7 +140,7 @@ function untilGrandPrize_Alberta() {
 function until500Donuts_Alberta() {
   let count = 0;
   while (numFreeDonut_Alberta < 500) {
-    randomItem();
+    randomItem_Alberta();
     count++;
   }
   console.log('count' + count);
@@ -162,7 +162,7 @@ document.getElementById('untilGrandPrize_Saskatchewan').addEventListener('click'
 document.getElementById('until500Donuts_Saskatchewan').addEventListener('click', until500Donuts_Saskatchewan);
 
 // Event Functions
-function randomItem() {
+function randomItem_Saskatchewan() {
   // Generate random number
   let randNum = Math.random();
 
@@ -192,20 +192,20 @@ function randomItem() {
 
 function simulateOnce_Saskatchewan() {
   for (let n = 0; n < 1; n++) {
-    randomItem();
+    randomItem_Saskatchewan();
   }
 }
 
 function simulate5Times_Saskatchewan() {
   for (let n = 0; n < 5; n++) {
-    randomItem();
+    randomItem_Saskatchewan();
   }
 }
 
 function untilGrandPrize_Saskatchewan() {
   let count = 0;
   while (numGrandPrize_Saskatchewan < 1) {
-    randomItem();
+    randomItem_Saskatchewan();
     count++;
   }
   console.log('count' + count);
@@ -214,7 +214,7 @@ function untilGrandPrize_Saskatchewan() {
 function until500Donuts_Saskatchewan() {
   let count = 0;
   while (numFreeDonut_Saskatchewan < 500) {
-    randomItem();
+    randomItem_Saskatchewan();
     count++;
   }
   console.log('count' + count);
